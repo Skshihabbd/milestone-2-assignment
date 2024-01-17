@@ -1,6 +1,6 @@
 * {
   font-family: "Mulish", sans-serif;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -397,54 +397,51 @@ button {
 }
 /* newsletter-section-design */
 
-.subscription{
-
+.subscription {
   width: 1170px;
   height: 422px;
-display: flex;
-margin: 0 auto;
-gap: 24px;
+  display: flex;
+  margin: 0 auto;
+  gap: 24px;
 }
 
-.save-percentage{
+.save-percentage {
   width: 474px;
-height: 422px;
-border-radius: 16px;
-border: 1px solid #afa1a1;
+  height: 422px;
+  border-radius: 16px;
+  border: 1px solid #afa1a1;
 
-
-/* display: flex;
+  /* display: flex;
 flex-direction: column;
  align-items: center ; 
 justify-content: center; */
-
 }
 
-.save-percentage p{
+.save-percentage p {
   margin-left: 40px;
   margin-top: 30px;
 }
 
-.newsletter-title{
+.newsletter-title {
   color: #131318;
-font-family: Mulish;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 
-.newsletter-description{
-width: 350px;
-  color: #5A5A5D;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
+.newsletter-description {
+  width: 350px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
-.input-subscription{
-  color: rgba(19, 19, 24, 0.30);
+.input-subscription {
+  color: rgba(19, 19, 24, 0.3);
   font-family: Mulish;
   font-size: 16px;
   font-style: normal;
@@ -453,84 +450,77 @@ line-height: 26px;
   width: 393px;
   height: 52px;
   border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-outline: none;
-margin: 5px auto ;
+  background: rgba(19, 19, 24, 0.05);
+  outline: none;
+  margin-left: 32px;
+  margin-bottom: 16px;
 }
 
-
-.subcribe-button{
-
+.subcribe-button {
   width: 393px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .newsletter-image-section {
-
   width: 672px;
-height: 422px;
-background-image: url(Images/Rectangle15.png);
-position: relative;
+  height: 422px;
+  background-image: url(Images/Rectangle15.png);
+  position: relative;
 }
 
-.travel-offer{
+.travel-offer {
   width: 324px;
-height: 120px;
-transform: rotate(-19.628deg);
-border-radius: 16px;
-background: #FF5400;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-position: absolute;
-bottom: 30px;
-right: 6px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+  right: 6px;
 }
-.Travel-com{
-
-  color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.Travel-com {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.Save-up-to-70{
-
-  color: #FFF;
-font-family: Mulish;
-font-size: 32px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-align: center;
+.Save-up-to-70 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
 }
 
-.footer-section{
+.footer-section {
   width: 1440px;
   height: 502px;
   margin-top: 100px;
   background: rgba(19, 19, 24, 0.05);
-
 }
 
-.footer-logo-section{
-
+.footer-logo-section {
   text-align: center;
   list-style: none;
   display: flex;
@@ -538,46 +528,42 @@ text-align: center;
   gap: 10px;
   padding-top: 110px;
 }
-.footer-description{
-
+.footer-description {
   text-align: center;
   /* width: 769px; */
- 
-  
-  
 }
-.social-site-contact{
-
+.social-site-contact {
   display: flex;
   justify-content: center;
   gap: 5px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.footer-horizontal-line{
+.footer-horizontal-line {
   width: 872px;
-height: 1px;
-background: rgba(19, 19, 24, 0.10);
-
-
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
 }
-.website-rules{
-
+.website-rules {
   color: #131318;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-text-align: center;
-padding-top: 50px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+  padding-top: 50px;
 }
-
 
 /* responsive-section-design */
 
 @media screen and (max-width: 600px) {
-  
+  body {
+    height: 5300px;
+    width: 335px;
+     
+  }
+
   nav {
     width: 375px;
     height: 64px;
@@ -645,7 +631,7 @@ padding-top: 50px;
 
   .popular-tour-section {
     flex-direction: column;
-    height: 923px;
+    height: 1018px;
     align-items: center;
     text-align: center;
     margin-top: 5px;
@@ -685,7 +671,8 @@ padding-top: 50px;
 
   .destination-section {
     height: 1473px;
-    margin-top: 100px;
+    margin-top: 24px;
+    width: 335px;
   }
 
   .destination-title {
@@ -755,6 +742,8 @@ align-items: center; */
   .grand-offer-choose {
     margin-top: 24px;
     /* margin: 0 auto; */
+width: 335px;
+    height: 1108px;
   }
 
   .grand-offer-title {
@@ -800,4 +789,139 @@ align-items: center; */
     width: 335px;
     height: 289px;
   }
+  .subscription {
+    flex-direction: column;
+    height: 660px;
+    row-gap: 24px;
+    align-items: center;
+    width: 335px;
+  }
+  .save-percentage {
+    width: 335px;
+    height: 453px;
+  }
+  .newsletter-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .newsletter-description {
+    width: 270px;
+  }
+  .input-subscription {
+    width: 266px;
+    display: flex;
+  }
+  .Newsletter-horizontal {
+    width: 288px;
+    height: 1px;
+  }
+  .subcribe-button {
+    width: 266px;
+    height: 52px;
+  }
+  .newsletter-image-section {
+    width: 335px;
+    height: 300px;
+    border-radius: 16px;
+    position: relative;
+  }
+
+  .travel-offer {
+    width: 214.023px;
+    height: 79.268px;
+    /* transform: rotate(-19.628deg); */
+    position: absolute;
+    bottom: 13px;
+    right: 2px;
+  }
+
+  .Travel-com {
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .Save-up-to-70 {
+    color: #fff;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .footer-section{
+
+    width: 375px;
+height: 320px;
+margin-top: 0px;
+
+  }
+
+  .footer-logo-section{
+padding-top: 0px;
+text-align: center;
+  }
+  .my-travel{
+
+    color: #131318;
+font-family: Mulish;
+font-size: 21.543px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+
+  .travel-blog{
+
+    color: #FF5400;
+font-family: Mulish;
+font-size: 21.543px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+footer ul > img {
+
+  width: 28.724px;
+height: 33.516px;
+
+}
+.footer-description{
+
+  width: 287px;
+  color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+
+.social-site-contact{
+
+  width: 174px;
+  height: 24px;
+}
+.footer-horizontal-line{
+
+  width: 335px;
+height: 1px;
+}
+.website-rules{
+padding-top: 5px;
+  width: 167px;
+}
+
+
 }
