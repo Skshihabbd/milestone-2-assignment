@@ -1,0 +1,803 @@
+* {
+  font-family: "Mulish", sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 1440px;
+  height: 4330px;
+  background: #fff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+
+  align-items: center;
+  margin: 0 auto;
+}
+.my-travel {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.travel-blog {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.home-class {
+  color: #ff5400;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.baki-same-class {
+  color: #424247;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.logo-section {
+  padding-inline-start: 0px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-section {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 44px;
+
+  padding-inline-start: 0px;
+}
+
+/* -----------
+
+header-section-design      
+ 
+
+-------------*/
+
+.header-section {
+  width: 1170px;
+  height: 500px;
+  background-image: url(Images/banner.png);
+
+  background-color: rgb(129, 123, 123);
+  background-blend-mode: multiply;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 16px;
+
+  margin-top: 50px;
+}
+.header-title {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.header-paragraph {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 676px;
+}
+
+.select-option {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: 0px;
+}
+
+.select-option-style {
+  display: flex;
+  gap: 24px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  flex-direction: row;
+}
+button {
+  outline: 0px;
+}
+.header-button-style {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  /* text-align: center; */
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  outline: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fa-magnifying-glass {
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+  /* padding-right: 10px; */
+  padding-top: 15px;
+}
+
+/* popular tour section design */
+
+.popular-tour-section {
+  margin: 0 auto;
+  height: 550px;
+  /* height: 923px; */
+  width: 1170px;
+  display: flex;
+  column-gap: 53px;
+  margin-top: 100px;
+}
+.popular-tour-header {
+  width: 355px;
+  height: 50px;
+  color: #131318;
+
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.popular-tour-description-1 {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.popular-tour-ul {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.popular-tour-description-2 {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.popular-tour-image {
+  width: 540px;
+  height: 550px;
+  border-radius: 16px;
+}
+.read-more-button {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* destination-section-design */
+
+.destination-section {
+  width: 1170px;
+  height: 1124px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+.destination-title {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.destination-description {
+  width: 643px;
+  color: rgba(19, 19, 24, 0.7);
+
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.country-name {
+  color: #fff;
+  /* text-align: center; */
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.Maldives {
+  width: 573px;
+  height: 300px;
+  background-image: url(Images/Rectangle5.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.Indonesia {
+  width: 573px;
+  height: 300px;
+  background-image: url(Images/Rectangle8.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.Srilanka {
+  width: 374px;
+  height: 286px;
+  background-image: url(Images/Rectangle6.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.North-America {
+  width: 474px;
+  height: 286px;
+  background-image: url(Images/Rectangle7.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.Kashmir {
+  width: 274px;
+  height: 286px;
+  background-image: url(Images/Rectangle9.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.Bangladesh {
+  width: 473px;
+  height: 300px;
+  background-image: url(Images/Rectangle11.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.Bandarban {
+  width: 673px;
+  height: 300px;
+  border-radius: 16px;
+  background-image: url(Images/Rectangle10.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-country-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+/*------------------------- grand-offer-choose-design-section-why-choose-us-section
+-------------------- */
+.grand-offer-choose {
+  width: 1194px;
+  height: 790px;
+  margin: 0 auto;
+  text-align: center;
+
+  margin-top: 50px;
+}
+
+.grand-offer-title {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: inline;
+}
+
+.grand-offer-description {
+  /* width: 643px;  */
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.grand-offer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 24px;
+}
+.Handpicked-Hotels {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.World-Class-Service {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.Best-Price-Guarantee {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+/* newsletter-section-design */
+
+.subscription{
+
+  width: 1170px;
+  height: 422px;
+display: flex;
+margin: 0 auto;
+gap: 24px;
+}
+
+.save-percentage{
+  width: 474px;
+height: 422px;
+border-radius: 16px;
+border: 1px solid #afa1a1;
+
+
+/* display: flex;
+flex-direction: column;
+ align-items: center ; 
+justify-content: center; */
+
+}
+
+.save-percentage p{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.newsletter-title{
+  color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.newsletter-description{
+width: 350px;
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.input-subscription{
+  color: rgba(19, 19, 24, 0.30);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+outline: none;
+margin: 5px auto ;
+}
+
+
+.subcribe-button{
+
+  width: 393px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.newsletter-image-section {
+
+  width: 672px;
+height: 422px;
+background-image: url(Images/Rectangle15.png);
+position: relative;
+}
+
+.travel-offer{
+  width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 30px;
+right: 6px;
+}
+.Travel-com{
+
+  color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Save-up-to-70{
+
+  color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+}
+
+.footer-section{
+  width: 1440px;
+  height: 502px;
+  margin-top: 100px;
+  background: rgba(19, 19, 24, 0.05);
+
+}
+
+.footer-logo-section{
+
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 110px;
+}
+.footer-description{
+
+  text-align: center;
+  /* width: 769px; */
+ 
+  
+  
+}
+.social-site-contact{
+
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-horizontal-line{
+  width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+
+
+}
+.website-rules{
+
+  color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: center;
+padding-top: 50px;
+}
+
+
+/* responsive-section-design */
+
+@media screen and (max-width: 600px) {
+  
+  nav {
+    width: 375px;
+    height: 64px;
+    flex-direction: column;
+  }
+  li > img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+  .navbar-section {
+    gap: 10px;
+  }
+
+  .my-travel,
+  .travel-blog {
+    font-family: Mulish;
+    font-size: 21.543px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .header-section {
+    width: 335px;
+    height: 483px;
+  }
+  .header-title {
+    width: 205px;
+    height: 28px;
+    color: #fff;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .header-paragraph {
+    width: 304px;
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .select-option-style {
+    display: flex;
+    width: 287px;
+    padding: 16px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .select-option {
+    width: 255px;
+    height: 52px;
+  }
+  .header-button-style {
+    width: 255px;
+    height: 52px;
+    margin-left: 15px;
+  }
+
+  .popular-tour-section {
+    flex-direction: column;
+    height: 923px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+
+    width: 335px;
+  }
+  .popular-tour-header {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    /* width: 178px; */
+    /* height: 25px; */
+  }
+  .popular-tour-description-1 {
+    width: 335px;
+  }
+  .popular-tour-ul {
+    width: 300px;
+    text-align: left;
+  }
+
+  .popular-tour-description-2 {
+    width: 335px;
+    text-align: center;
+  }
+
+  .popular-tour-image {
+    width: 355px;
+    height: 342px;
+  }
+
+  /* destination-section-responsive */
+
+  .destination-section {
+    height: 1473px;
+    margin-top: 100px;
+  }
+
+  .destination-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .destination-description {
+    width: 309px;
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 24px;  */
+    /* display: flex;
+justify-content: center;
+align-items: center; */
+
+    display: inline-block;
+  }
+  .all-country-flex {
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+  }
+
+  .Maldives {
+    width: 335px;
+    height: 176px;
+  }
+  .Indonesia {
+    width: 335px;
+    height: 176px;
+  }
+  .Srilanka {
+    width: 335px;
+    height: 176px;
+  }
+  .North-America {
+    width: 335px;
+    height: 176px;
+  }
+
+  .Kashmir {
+    width: 335px;
+    height: 176px;
+  }
+  .Bangladesh {
+    width: 335px;
+    height: 176px;
+  }
+
+  .Bandarban {
+    width: 335px;
+    height: 176px;
+  }
+
+  /* grand-offer-responsive */
+
+  .grand-offer-choose {
+    margin-top: 24px;
+    /* margin: 0 auto; */
+  }
+
+  .grand-offer-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: block;
+  }
+  .grand-offer-description {
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 309px;
+    display: inline-block;
+  }
+
+  .grand-offer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  .Handpicked-Hotels {
+    width: 335px;
+    height: 289px;
+    padding-left: 22px;
+  }
+
+  .World-Class-Service {
+    width: 335px;
+    height: 289px;
+    padding-left: 22px;
+  }
+  .Best-Price-Guarantee {
+    padding-left: 22px;
+    width: 335px;
+    height: 289px;
+  }
+}
